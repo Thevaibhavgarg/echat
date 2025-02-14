@@ -4,20 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>eChat - Chat with Friends in RealTime</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
     <script defer src="client.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
         <img src="../asset/paper-plane.png" alt="eChat Image" class="logo">
+        <h1>Welcome to eChat - Let's Talk with people</h1>
     </nav>
-    <div class="container"></div>
+    <div class="outer">
+        <div class="container"></div>
+    </div>
 
     <div class="send">
-        <form action="#" id="send_container">
+        <form action="#" id="send-container">
             <input type="text" name="messageInp" id="messageInp" placeholder="Type a message...">
             <button class="btn" type="submit">Send</button>
-              
         </form>
     </div>
 </body>
