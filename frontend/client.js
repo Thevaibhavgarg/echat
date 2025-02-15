@@ -1,4 +1,4 @@
-const socket = io('https://echats.netlify.app/.netlify/functions/socket');
+const socket = io('https://echats.netlify.app/netlify/functions/socket.js');
 
 const form = document.getElementById('send-container');
 const messageInput = document.getElementById('messageInp');
